@@ -1,3 +1,14 @@
-puts "Hello, donne moi un nombre chef"
-nombre = gets.chomp.to_i
-puts "#{nombre+20}"
+
+puts "Donne moi un nombre"
+
+nombre = gets.chomp
+
+i = 0
+
+loop do 
+	puts "#{i}" 
+	if i == nombre.to_i 
+			break
+		end		
+	i += 1
+end
