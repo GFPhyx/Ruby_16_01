@@ -1,0 +1,6 @@
+puts "Donne moi un nombre chef"
+nombre = gets.chomp.to_i
+
+5.times do |i|
+  puts i + 1
+end
